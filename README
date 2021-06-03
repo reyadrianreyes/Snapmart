@@ -1,0 +1,17 @@
+Setup
+This project requires an up-to-date version of Python 3.
+You may need to install the following:
+1. Python
+2. Pytest
+3. Pytest-html
+
+To set up this project on your local machine:
+1. Clone it from this GitHub repository.
+2. In conftest.py, change the path of the webdriver. In this test, you will need to have the latest version of Chrome (Version 91.0.4472.77)
+
+
+Running Tests
+1. Run tests simply using the pytest command.
+2. Open CMD > go the Project directory> run command:
+python -m pytest --html=reports/TestResult.html --self-contained-html
+Note: In case of error, provide the absolute path in --html=<path>
